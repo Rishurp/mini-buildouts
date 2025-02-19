@@ -26,7 +26,6 @@ const Timer = () => {
       setIsRunning(true);
     } else {
     
-      setNumber(10);
       setIsRunning(true); 
     }
   };

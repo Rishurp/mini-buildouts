@@ -1,16 +1,16 @@
-import Timer from "./Component/Timer";
+ import Timer from "./Component/Timer";
 import "./App.css";
-import TodoList from "./Component/TodoList";
-import TodoComponent from "./Component/TodoComponent";
-import PracticeComponent from "./Component/PracticeComponent";
+// import TodoList from "./Component/TodoList";
+// import TodoComponent from "./Component/TodoComponent";
+// import CustomHooks from "./Component/CustomHook";
 
 function App() {
   return (
     <div>
-      {/* <Timer /> */}
+      <Timer />
       {/* <TodoList /> */}
       {/* <TodoComponent /> */}
-      <PracticeComponent />
+      {/* <CustomHooks /> */}
     </div>
   );
 }

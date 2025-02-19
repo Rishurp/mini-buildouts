@@ -1,6 +1,6 @@
 import useCounter from "../customHooks/use-counter";
 
-const PracticeComponent = () => {
+const CustomHooks = () => {
   const [count, increment, decrement, reset] = useCounter(0, 1);
 
   return (
@@ -13,4 +13,4 @@ const PracticeComponent = () => {
   );
 };
 
-export default PracticeComponent;
+export default CustomHooks;
